@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3108
+D Ultralow Voltage Step-Up Converter and Power Manager
+F D:/andreas/3108fc.pdf
+$ENDCMP
+#
+$CMP RN2483A-I
+D MODULE LORA LONG RANGE
+K RN2483A-I/RM104-ND
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en574289
+$ENDCMP
+#
+#End Doc Library
