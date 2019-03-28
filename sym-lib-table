@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Cowbell-rescue)(type Legacy)(uri ${KIPRJMOD}/Cowbell-rescue.lib)(options "")(descr "")(disabled))
-)
