@@ -5,9 +5,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
+<<<<<<< HEAD
 Title "Cowbell"
 Date "2019-04-11"
 Rev "v04"
+=======
+Title "Charger"
+Date "2019-02-24"
+Rev "v02"
+>>>>>>> parent of bfd9213... Add files via upload
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -17,12 +23,21 @@ $EndDescr
 $Comp
 L Sensor_Motion:LSM303C U102
 U 1 1 5C7B0225
+<<<<<<< HEAD
 P 9300 2450
 F 0 "U102" H 8750 2950 50  0000 C CNN
 F 1 "LSM303C" H 8950 2850 50  0000 C CNN
 F 2 "Emborg:QFN-12_2x2_lsm303c" H 8900 1750 50  0001 L CNN
 F 3 "www.st.com/resource/en/datasheet/lsm303c.pdf" H 9400 1800 50  0001 C CNN
 	1    9300 2450
+=======
+P 4500 6650
+F 0 "U102" H 3950 7150 50  0000 C CNN
+F 1 "LSM303C" H 4150 7050 50  0000 C CNN
+F 2 "Emborg:QFN-12_2x2_lsm303c" H 4100 5950 50  0001 L CNN
+F 3 "www.st.com/resource/en/datasheet/lsm303c.pdf" H 4600 6000 50  0001 C CNN
+	1    4500 6650
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 Text Notes 1850 1000 0    100  ~ 20
@@ -56,34 +71,61 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0123
 U 1 1 5C7BC51E
+<<<<<<< HEAD
 P 9350 1200
 F 0 "#PWR0123" H 9350 1050 50  0001 C CNN
 F 1 "+3.3V" H 9365 1373 50  0000 C CNN
 F 2 "" H 9350 1200 50  0001 C CNN
 F 3 "" H 9350 1200 50  0001 C CNN
 	1    9350 1200
+=======
+P 4550 5400
+F 0 "#PWR0123" H 4550 5250 50  0001 C CNN
+F 1 "+3.3V" H 4565 5573 50  0000 C CNN
+F 2 "" H 4550 5400 50  0001 C CNN
+F 3 "" H 4550 5400 50  0001 C CNN
+	1    4550 5400
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5C7BC5E7
+<<<<<<< HEAD
 P 9300 3050
 F 0 "#PWR0124" H 9300 2800 50  0001 C CNN
 F 1 "GND" H 9305 2877 50  0000 C CNN
 F 2 "" H 9300 3050 50  0001 C CNN
 F 3 "" H 9300 3050 50  0001 C CNN
 	1    9300 3050
+=======
+P 4500 7250
+F 0 "#PWR0124" H 4500 7000 50  0001 C CNN
+F 1 "GND" H 4505 7077 50  0000 C CNN
+F 2 "" H 4500 7250 50  0001 C CNN
+F 3 "" H 4500 7250 50  0001 C CNN
+	1    4500 7250
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0125
 U 1 1 5C7BC61D
+<<<<<<< HEAD
 P 9400 3050
 F 0 "#PWR0125" H 9400 2800 50  0001 C CNN
 F 1 "GND" H 9405 2877 50  0000 C CNN
 F 2 "" H 9400 3050 50  0001 C CNN
 F 3 "" H 9400 3050 50  0001 C CNN
 	1    9400 3050
+=======
+P 4600 7250
+F 0 "#PWR0125" H 4600 7000 50  0001 C CNN
+F 1 "GND" H 4605 7077 50  0000 C CNN
+F 2 "" H 4600 7250 50  0001 C CNN
+F 3 "" H 4600 7250 50  0001 C CNN
+	1    4600 7250
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -131,6 +173,20 @@ F 3 "" H 6750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L power:GND #PWR0104
+U 1 1 5C7BC98A
+P 1850 3100
+F 0 "#PWR0104" H 1850 2850 50  0001 C CNN
+F 1 "GND" H 1855 2927 50  0000 C CNN
+F 2 "" H 1850 3100 50  0001 C CNN
+F 3 "" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+>>>>>>> parent of bfd9213... Add files via upload
 L power:GND #PWR0105
 U 1 1 5C7BC9B9
 P 1950 3100
@@ -164,6 +220,7 @@ F 3 "" H 2150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
 	1200 1600 1200 1550
 Text GLabel 8500 2250 0    50   BiDi ~ 0
 SCL
@@ -173,6 +230,28 @@ Wire Wire Line
 	8600 2350 8500 2350
 Wire Wire Line
 	8600 2250 8500 2250
+=======
+	1200 1600 1200 1500
+$Comp
+L Emborg:NEO-M8 U101
+U 1 1 5C7BED4E
+P 2050 2200
+F 0 "U101" H 2050 3165 50  0000 C CNN
+F 1 "NEO-M8" H 2050 3074 50  0000 C CNN
+F 2 "Emborg:NEO-M8" H 2050 2200 50  0001 C CNN
+F 3 "" H 2050 2200 50  0001 C CNN
+	1    2050 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 6450 0    50   BiDi ~ 0
+SCL
+Text GLabel 3700 6550 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	3800 6550 3700 6550
+Wire Wire Line
+	3800 6450 3700 6450
+>>>>>>> parent of bfd9213... Add files via upload
 Text GLabel 2650 2400 2    50   Input ~ 0
 Rx0
 Text GLabel 2650 2300 2    50   Output ~ 0
@@ -190,12 +269,21 @@ Tx1
 Text GLabel 2650 6350 2    50   Input ~ 0
 Rx1
 $Comp
+<<<<<<< HEAD
 L Connector:Conn_Coaxial J401
 U 1 1 5C7C7533
 P 6050 1000
 F 0 "J401" H 6149 976 50  0000 L CNN
 F 1 "Conn_Coaxial" H 6149 885 50  0000 L CNN
 F 2 "Emborg:SMA_EdgeMount" H 6050 1000 50  0001 C CNN
+=======
+L Connector:Conn_Coaxial J101
+U 1 1 5C7C7533
+P 6050 1000
+F 0 "J101" H 6149 976 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6149 885 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_SMA_Jack_Edge_Mount" H 6050 1000 50  0001 C CNN
+>>>>>>> parent of bfd9213... Add files via upload
 F 3 " ~" H 6050 1000 50  0001 C CNN
 	1    6050 1000
 	1    0    0    -1  
@@ -212,6 +300,46 @@ F 3 "" H 6050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L power:GND #PWR0128
+U 1 1 5C7C762E
+P 5250 1250
+F 0 "#PWR0128" H 5250 1000 50  0001 C CNN
+F 1 "GND" H 5255 1077 50  0000 C CNN
+F 2 "" H 5250 1250 50  0001 C CNN
+F 3 "" H 5250 1250 50  0001 C CNN
+	1    5250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1000 4850 1000
+$Comp
+L power:GND #PWR0130
+U 1 1 5C7D22D6
+P 4300 2450
+F 0 "#PWR0130" H 4300 2200 50  0001 C CNN
+F 1 "GND" H 4305 2277 50  0000 C CNN
+F 2 "" H 4300 2450 50  0001 C CNN
+F 3 "" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0129
+U 1 1 5C7D230B
+P 4300 1500
+F 0 "#PWR0129" H 4300 1350 50  0001 C CNN
+F 1 "+3.3V" H 4315 1673 50  0000 C CNN
+F 2 "" H 4300 1500 50  0001 C CNN
+F 3 "" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1950 4300 1500
+$Comp
+>>>>>>> parent of bfd9213... Add files via upload
 L Emborg:RN2483A-I U104
 U 1 1 5C7E052B
 P 5750 2750
@@ -231,6 +359,15 @@ F 11 "Microchip Technology" H 6400 3800 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
+=======
+	5650 1550 5650 1350
+Wire Wire Line
+	5650 1350 4850 1350
+Wire Wire Line
+	4850 1350 4850 1000
+Wire Wire Line
+>>>>>>> parent of bfd9213... Add files via upload
 	6650 3750 6750 3750
 Wire Wire Line
 	6750 3750 6750 3850
@@ -313,6 +450,11 @@ Connection ~ 6300 1450
 Wire Wire Line
 	6650 2650 6850 2650
 Wire Wire Line
+<<<<<<< HEAD
+=======
+	7050 2650 7050 2600
+Wire Wire Line
+>>>>>>> parent of bfd9213... Add files via upload
 	4850 2450 4650 2450
 Wire Wire Line
 	7000 3250 6650 3250
@@ -323,6 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 1000 5850 1550
 Wire Wire Line
+<<<<<<< HEAD
 	4700 2250 4850 2250
 Wire Wire Line
 	4700 1850 4700 2250
@@ -333,15 +476,50 @@ P 4550 1700
 F 0 "R401" H 4620 1746 50  0000 L CNN
 F 1 "10k" H 4620 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 1700 50  0001 C CNN
+=======
+	5250 1250 5250 1200
+Wire Wire Line
+	4150 1850 4550 1850
+Wire Wire Line
+	4700 2250 4850 2250
+Wire Wire Line
+	4700 1850 4700 2250
+Wire Wire Line
+	4500 2250 4500 2050
+Wire Wire Line
+	4500 2050 4850 2050
+Wire Wire Line
+	4150 2250 4500 2250
+Wire Wire Line
+	4150 2050 4300 2050
+Wire Wire Line
+	4150 1950 4300 1950
+Wire Wire Line
+	4150 2150 4850 2150
+Wire Wire Line
+	4300 2050 4300 2450
+$Comp
+L Device:R R101
+U 1 1 5C8B65CB
+P 4550 1700
+F 0 "R101" H 4620 1746 50  0000 L CNN
+F 1 "10k" H 4620 1655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4480 1700 50  0001 C CNN
+>>>>>>> parent of bfd9213... Add files via upload
 F 3 "~" H 4550 1700 50  0001 C CNN
 	1    4550 1700
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+=======
+Connection ~ 4550 1850
+>>>>>>> parent of bfd9213... Add files via upload
 Wire Wire Line
 	4550 1850 4700 1850
 Wire Wire Line
 	4550 1550 4550 1500
 $Comp
+<<<<<<< HEAD
 L Connector:Conn_Coaxial J1
 U 1 1 5C7E1388
 P 650 2100
@@ -350,11 +528,33 @@ F 1 "Conn_Coaxial" H 749 1985 50  0000 L CNN
 F 2 "Emborg:u.fl" H 650 2100 50  0001 C CNN
 F 3 " ~" H 650 2100 50  0001 C CNN
 	1    650  2100
+=======
+L Device:R R1
+U 1 1 5C7E1150
+P 1250 2750
+F 0 "R1" H 1320 2796 50  0000 L CNN
+F 1 "DNC" H 1320 2705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 2750 50  0001 C CNN
+F 3 "~" H 1250 2750 50  0001 C CNN
+	1    1250 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5C7E1388
+P 1200 2100
+F 0 "J1" H 1299 2076 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1299 1985 50  0000 L CNN
+F 2 "Emborg:u.fl" H 1200 2100 50  0001 C CNN
+F 3 " ~" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+>>>>>>> parent of bfd9213... Add files via upload
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5C7EA709
+<<<<<<< HEAD
 P 650 2300
 F 0 "#PWR05" H 650 2050 50  0001 C CNN
 F 1 "GND" H 655 2127 50  0000 C CNN
@@ -376,44 +576,112 @@ F 1 "0.1µF" H 9065 1655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8988 1550 50  0001 C CNN
 F 3 "~" H 8950 1700 50  0001 C CNN
 	1    8950 1700
+=======
+P 1200 2300
+F 0 "#PWR05" H 1200 2050 50  0001 C CNN
+F 1 "GND" H 1205 2127 50  0000 C CNN
+F 2 "" H 1200 2300 50  0001 C CNN
+F 3 "" H 1200 2300 50  0001 C CNN
+	1    1200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2900 1400 2900
+Wire Wire Line
+	1400 2900 1400 2700
+Wire Wire Line
+	1400 2700 1450 2700
+Wire Wire Line
+	1400 2100 1450 2100
+Wire Wire Line
+	1250 2600 1450 2600
+NoConn ~ 1450 2300
+NoConn ~ 2650 1600
+NoConn ~ 2650 2000
+NoConn ~ 2650 2100
+NoConn ~ 2650 2800
+NoConn ~ 2650 2700
+NoConn ~ 2650 2600
+Text GLabel 2650 1700 2    50   Output ~ 0
+Timepulse
+Text GLabel 2650 1800 2    50   Input ~ 0
+Extint
+$Comp
+L Device:C C204
+U 1 1 5C816C98
+P 4150 5900
+F 0 "C204" H 4265 5946 50  0000 L CNN
+F 1 "0.1µF" H 4265 5855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4188 5750 50  0001 C CNN
+F 3 "~" H 4150 5900 50  0001 C CNN
+	1    4150 5900
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C203
 U 1 1 5C816DE7
+<<<<<<< HEAD
 P 10100 1700
 F 0 "C203" H 10215 1746 50  0000 L CNN
 F 1 "0.1µF" H 10215 1655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10138 1550 50  0001 C CNN
 F 3 "~" H 10100 1700 50  0001 C CNN
 	1    10100 1700
+=======
+P 5300 5900
+F 0 "C203" H 5415 5946 50  0000 L CNN
+F 1 "0.1µF" H 5415 5855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5338 5750 50  0001 C CNN
+F 3 "~" H 5300 5900 50  0001 C CNN
+	1    5300 5900
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C201
 U 1 1 5C816E37
+<<<<<<< HEAD
 P 10050 2850
 F 0 "C201" H 10165 2896 50  0000 L CNN
 F 1 "0.1µF" H 10165 2805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10088 2700 50  0001 C CNN
 F 3 "~" H 10050 2850 50  0001 C CNN
 	1    10050 2850
+=======
+P 5250 7050
+F 0 "C201" H 5365 7096 50  0000 L CNN
+F 1 "0.1µF" H 5365 7005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5288 6900 50  0001 C CNN
+F 3 "~" H 5250 7050 50  0001 C CNN
+	1    5250 7050
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C202
 U 1 1 5C816E8B
+<<<<<<< HEAD
 P 9700 1700
 F 0 "C202" H 9815 1746 50  0000 L CNN
 F 1 "10µF" H 9815 1655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9738 1550 50  0001 C CNN
 F 3 "~" H 9700 1700 50  0001 C CNN
 	1    9700 1700
+=======
+P 4900 5900
+F 0 "C202" H 5015 5946 50  0000 L CNN
+F 1 "10µF" H 5015 5855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4938 5750 50  0001 C CNN
+F 3 "~" H 4900 5900 50  0001 C CNN
+	1    4900 5900
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5C8179E6
+<<<<<<< HEAD
 P 10050 3050
 F 0 "#PWR0101" H 10050 2800 50  0001 C CNN
 F 1 "GND" H 10055 2877 50  0000 C CNN
@@ -437,11 +705,37 @@ F 1 "GND" H 9705 1677 50  0000 C CNN
 F 2 "" H 9700 1850 50  0001 C CNN
 F 3 "" H 9700 1850 50  0001 C CNN
 	1    9700 1850
+=======
+P 5250 7250
+F 0 "#PWR0101" H 5250 7000 50  0001 C CNN
+F 1 "GND" H 5255 7077 50  0000 C CNN
+F 2 "" H 5250 7250 50  0001 C CNN
+F 3 "" H 5250 7250 50  0001 C CNN
+	1    5250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6850 5250 6850
+Wire Wire Line
+	5250 6850 5250 6900
+Wire Wire Line
+	5250 7200 5250 7250
+$Comp
+L power:GND #PWR0102
+U 1 1 5C81E7F3
+P 4900 6050
+F 0 "#PWR0102" H 4900 5800 50  0001 C CNN
+F 1 "GND" H 4905 5877 50  0000 C CNN
+F 2 "" H 4900 6050 50  0001 C CNN
+F 3 "" H 4900 6050 50  0001 C CNN
+	1    4900 6050
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5C81E838
+<<<<<<< HEAD
 P 10100 1850
 F 0 "#PWR0108" H 10100 1600 50  0001 C CNN
 F 1 "GND" H 10105 1677 50  0000 C CNN
@@ -482,21 +776,73 @@ DRDY_MAG
 Text GLabel 10000 2350 2    50   Output ~ 0
 Int_MAG
 Text GLabel 10000 2450 2    50   Output ~ 0
+=======
+P 5300 6050
+F 0 "#PWR0108" H 5300 5800 50  0001 C CNN
+F 1 "GND" H 5305 5877 50  0000 C CNN
+F 2 "" H 5300 6050 50  0001 C CNN
+F 3 "" H 5300 6050 50  0001 C CNN
+	1    5300 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5750 4900 5750
+Wire Wire Line
+	5300 5750 4900 5750
+Connection ~ 4900 5750
+Wire Wire Line
+	4600 5700 4600 5750
+$Comp
+L power:GND #PWR0109
+U 1 1 5C829C06
+P 4150 6050
+F 0 "#PWR0109" H 4150 5800 50  0001 C CNN
+F 1 "GND" H 4155 5877 50  0000 C CNN
+F 2 "" H 4150 6050 50  0001 C CNN
+F 3 "" H 4150 6050 50  0001 C CNN
+	1    4150 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5750 4150 5750
+Wire Wire Line
+	4150 5700 4150 5750
+Connection ~ 4150 5750
+Wire Wire Line
+	3800 6850 3800 6750
+Wire Wire Line
+	3800 6650 3800 6750
+Text GLabel 5200 6450 2    50   Output ~ 0
+DRDY_MAG
+Text GLabel 5200 6550 2    50   Output ~ 0
+Int_MAG
+Text GLabel 5200 6650 2    50   Output ~ 0
+>>>>>>> parent of bfd9213... Add files via upload
 Int_XL
 $Comp
 L Device:R R201
 U 1 1 5C83B915
+<<<<<<< HEAD
 P 8350 1750
 F 0 "R201" H 8420 1796 50  0000 L CNN
 F 1 "2k2" H 8420 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8280 1750 50  0001 C CNN
 F 3 "~" H 8350 1750 50  0001 C CNN
 	1    8350 1750
+=======
+P 3550 5950
+F 0 "R201" H 3620 5996 50  0000 L CNN
+F 1 "2k2" H 3620 5905 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 3480 5950 50  0001 C CNN
+F 3 "~" H 3550 5950 50  0001 C CNN
+	1    3550 5950
+>>>>>>> parent of bfd9213... Add files via upload
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R202
 U 1 1 5C83BBD1
+<<<<<<< HEAD
 P 8450 1750
 F 0 "R202" H 8520 1796 50  0000 L CNN
 F 1 "2k2" H 8520 1705 50  0000 L CNN
@@ -521,6 +867,32 @@ Wire Wire Line
 	8350 1600 8350 1500
 Wire Wire Line
 	8450 1600 8450 1500
+=======
+P 3650 5950
+F 0 "R202" H 3720 5996 50  0000 L CNN
+F 1 "2k2" H 3720 5905 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 3580 5950 50  0001 C CNN
+F 3 "~" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 6150 0    50   BiDi ~ 0
+SCL
+Text GLabel 3500 6250 0    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	3650 6100 3650 6250
+Wire Wire Line
+	3650 6250 3500 6250
+Wire Wire Line
+	3500 6150 3550 6150
+Wire Wire Line
+	3550 6150 3550 6100
+Wire Wire Line
+	3550 5800 3550 5700
+Wire Wire Line
+	3650 5800 3650 5700
+>>>>>>> parent of bfd9213... Add files via upload
 Wire Wire Line
 	1200 1600 1450 1600
 $Comp
@@ -611,39 +983,80 @@ Wire Wire Line
 Wire Wire Line
 	2750 4400 2800 4400
 $Comp
+<<<<<<< HEAD
 L Device:R R302
 U 1 1 5C906889
 P 2800 4250
 F 0 "R302" H 2870 4296 50  0000 L CNN
 F 1 "2k2" H 2870 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 4250 50  0001 C CNN
+=======
+L Device:R R102
+U 1 1 5C906889
+P 2800 4250
+F 0 "R102" H 2870 4296 50  0000 L CNN
+F 1 "2k2" H 2870 4205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 2730 4250 50  0001 C CNN
+>>>>>>> parent of bfd9213... Add files via upload
 F 3 "~" H 2800 4250 50  0001 C CNN
 	1    2800 4250
 	1    0    0    -1  
 $EndComp
 Connection ~ 2800 4400
+<<<<<<< HEAD
+=======
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 5C906A3D
+P 2900 3800
+F 0 "#PWR0116" H 2900 3650 50  0001 C CNN
+F 1 "+3.3V" H 2915 3973 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+>>>>>>> parent of bfd9213... Add files via upload
 Wire Wire Line
 	2800 4400 3400 4400
 $Comp
 L Mechanical:MountingHole_Pad H101
 U 1 1 5C90DB1D
+<<<<<<< HEAD
 P 4550 7350
 F 0 "H101" H 4650 7401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4650 7310 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 4550 7350 50  0001 C CNN
 F 3 "~" H 4550 7350 50  0001 C CNN
 	1    4550 7350
+=======
+P 5250 4600
+F 0 "H101" H 5350 4651 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5350 4560 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 5250 4600 50  0001 C CNN
+F 3 "~" H 5250 4600 50  0001 C CNN
+	1    5250 4600
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5C911393
+<<<<<<< HEAD
 P 4550 7450
 F 0 "#PWR0117" H 4550 7200 50  0001 C CNN
 F 1 "GND" H 4555 7277 50  0000 C CNN
 F 2 "" H 4550 7450 50  0001 C CNN
 F 3 "" H 4550 7450 50  0001 C CNN
 	1    4550 7450
+=======
+P 5250 4700
+F 0 "#PWR0117" H 5250 4450 50  0001 C CNN
+F 1 "GND" H 5255 4527 50  0000 C CNN
+F 2 "" H 5250 4700 50  0001 C CNN
+F 3 "" H 5250 4700 50  0001 C CNN
+	1    5250 4700
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -657,17 +1070,53 @@ F 3 "" H 4750 3850 50  0001 C CNN
 	1    4750 3850
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
 Wire Wire Line
 	6850 2650 6850 2300
+=======
+$Comp
+L Device:R R103
+U 1 1 5C91CC10
+P 1200 1350
+F 0 "R103" H 1270 1396 50  0000 L CNN
+F 1 "shunt" H 1270 1305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 1130 1350 50  0001 C CNN
+F 3 "~" H 1200 1350 50  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 5C91DC45
+P 7050 2450
+F 0 "R106" H 7120 2496 50  0000 L CNN
+F 1 "shunt" H 7120 2405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 6980 2450 50  0001 C CNN
+F 3 "~" H 7050 2450 50  0001 C CNN
+	1    7050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2300 7050 2300
+Wire Wire Line
+	6850 2650 6850 800 
+>>>>>>> parent of bfd9213... Add files via upload
 Wire Wire Line
 	6850 800  4650 800 
 Wire Wire Line
 	4650 800  4650 1500
+<<<<<<< HEAD
+=======
+Connection ~ 6850 2650
+Wire Wire Line
+	6850 2650 7050 2650
+>>>>>>> parent of bfd9213... Add files via upload
 Wire Wire Line
 	4550 1500 4650 1500
 Connection ~ 4650 1500
 Wire Wire Line
 	4650 1500 4650 2450
+<<<<<<< HEAD
 Connection ~ 2050 4250
 Wire Wire Line
 	1300 4450 1450 4450
@@ -699,28 +1148,110 @@ F 1 "Battery_Cell" H 6318 7205 50  0000 L CNN
 F 2 "Emborg:batt_Connector" V 6200 7260 50  0001 C CNN
 F 3 "~" V 6200 7260 50  0001 C CNN
 	1    6200 7200
+=======
+$Comp
+L Device:R R104
+U 1 1 5C9406E8
+P 2200 4100
+F 0 "R104" H 2270 4146 50  0000 L CNN
+F 1 "shunt" H 2270 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 2130 4100 50  0001 C CNN
+F 3 "~" H 2200 4100 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4250 2200 4250
+Wire Wire Line
+	2200 3950 2350 3950
+Connection ~ 2050 4250
+Wire Wire Line
+	1300 4450 1450 4450
+Wire Wire Line
+	4600 5700 4550 5700
+Connection ~ 4150 5700
+Wire Wire Line
+	4150 5700 3750 5700
+Connection ~ 3650 5700
+Wire Wire Line
+	3550 5700 3650 5700
+$Comp
+L Device:R R105
+U 1 1 5C962B47
+P 4550 5550
+F 0 "R105" H 4620 5596 50  0000 L CNN
+F 1 "shunt" H 4620 5505 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4480 5550 50  0001 C CNN
+F 3 "~" H 4550 5550 50  0001 C CNN
+	1    4550 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 5700
+Wire Wire Line
+	4550 5700 4150 5700
+Wire Wire Line
+	4500 5750 4500 6050
+Wire Wire Line
+	4600 6050 4600 5750
+Connection ~ 4600 5750
+Connection ~ 3800 6750
+Wire Wire Line
+	3800 6850 3750 6850
+Wire Wire Line
+	3750 6850 3750 5700
+Connection ~ 3750 5700
+Wire Wire Line
+	3750 5700 3650 5700
+$Comp
+L Device:Battery_Cell BT101
+U 1 1 5C97B3FF
+P 6200 5350
+F 0 "BT101" H 6318 5446 50  0000 L CNN
+F 1 "Battery_Cell" H 6318 5355 50  0000 L CNN
+F 2 "Emborg:batt_Connector" V 6200 5410 50  0001 C CNN
+F 3 "~" V 6200 5410 50  0001 C CNN
+	1    6200 5350
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 5C97B551
+<<<<<<< HEAD
 P 6200 7000
 F 0 "#PWR0110" H 6200 6850 50  0001 C CNN
 F 1 "+3.3V" H 6215 7173 50  0000 C CNN
 F 2 "" H 6200 7000 50  0001 C CNN
 F 3 "" H 6200 7000 50  0001 C CNN
 	1    6200 7000
+=======
+P 6200 5150
+F 0 "#PWR0110" H 6200 5000 50  0001 C CNN
+F 1 "+3.3V" H 6215 5323 50  0000 C CNN
+F 2 "" H 6200 5150 50  0001 C CNN
+F 3 "" H 6200 5150 50  0001 C CNN
+	1    6200 5150
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 5C97B58E
+<<<<<<< HEAD
 P 6200 7300
 F 0 "#PWR0114" H 6200 7050 50  0001 C CNN
 F 1 "GND" H 6205 7127 50  0000 C CNN
 F 2 "" H 6200 7300 50  0001 C CNN
 F 3 "" H 6200 7300 50  0001 C CNN
 	1    6200 7300
+=======
+P 6200 5450
+F 0 "#PWR0114" H 6200 5200 50  0001 C CNN
+F 1 "GND" H 6205 5277 50  0000 C CNN
+F 2 "" H 6200 5450 50  0001 C CNN
+F 3 "" H 6200 5450 50  0001 C CNN
+	1    6200 5450
+>>>>>>> parent of bfd9213... Add files via upload
 	1    0    0    -1  
 $EndComp
 Text Label 1200 1600 0    50   ~ 0
@@ -731,6 +1262,12 @@ Wire Wire Line
 	2800 4100 2600 4100
 Wire Wire Line
 	2600 4100 2600 4250
+<<<<<<< HEAD
+=======
+Wire Wire Line
+	2600 4250 2200 4250
+Connection ~ 2200 4250
+>>>>>>> parent of bfd9213... Add files via upload
 Text Label 1400 4250 0    50   ~ 0
 VCC103
 Text Label 950  1700 0    50   ~ 0
@@ -746,12 +1283,21 @@ Wire Wire Line
 Wire Wire Line
 	2650 5550 2950 5550
 $Comp
+<<<<<<< HEAD
 L Device:R R307
 U 1 1 5C9B7F04
 P 1050 4350
 F 0 "R307" H 1120 4396 50  0000 L CNN
 F 1 "2k2" H 1120 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 980 4350 50  0001 C CNN
+=======
+L Device:R R107
+U 1 1 5C9B7F04
+P 1050 4350
+F 0 "R107" H 1120 4396 50  0000 L CNN
+F 1 "2k2" H 1120 4305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 980 4350 50  0001 C CNN
+>>>>>>> parent of bfd9213... Add files via upload
 F 3 "~" H 1050 4350 50  0001 C CNN
 	1    1050 4350
 	1    0    0    -1  
@@ -779,6 +1325,7 @@ F 3 "~" H 750 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  1800 1000 1800
+<<<<<<< HEAD
 NoConn ~ 4850 2050
 NoConn ~ 4850 2150
 $Comp
@@ -917,4 +1464,6 @@ Connection ~ 1250 3100
 Wire Wire Line
 	1250 3100 1300 3100
 NoConn ~ 1450 2600
+=======
+>>>>>>> parent of bfd9213... Add files via upload
 $EndSCHEMATC
