@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C204,C203,C201,C504";"C_0603_1608Metric";4;"0.1µF";;;
+2;"C202,C503,C502,C501";"C_0603_1608Metric";4;"10µF";;;
+3;"J401,J101";"u.fl";2;"Conn_Coaxial";;;
+4;"U5";"DRC0010J";1;"TPS63001";;;
+5;"R501";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"100";;;
+6;"L501";"NR3015";1;"2.2µH";;;
+7;"U101";"SIM28ML";1;"SIM28ML";;;
+8;"U105";"RFM95";1;"RFM9x";;;
+9;"Q102";"DMG6601LVT";1;"DMG6601LVT";;;
+10;"R101";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10k";;;
+11;"L101";"L_0402_1005Metric";1;">27nH";;;
+12;"R102";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"10ohm";;;
+13;"R201,R202,R302,R307";"R_0603_1608Metric";4;"2k2";;;
+14;"BT101";"batt_Connector";1;"Battery_Cell";;;
+15;"U102";"QFN-12_2x2_lsm303c";1;"LSM303C";;;
+16;"U103";"SP32-WROOM-32U";1;"ESP32-WROOM-32";;;
+17;"J105,J102,J104";"Pin_Header_Straight_1x02_Pitch2.54mm";3;"Conn_01x02_Male";;;

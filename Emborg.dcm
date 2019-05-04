@@ -1,14 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LTC3108
-D Ultralow Voltage Step-Up Converter and Power Manager
-F D:/andreas/3108fc.pdf
+$CMP DMG6601LVT
+F https://www.diodes.com/assets/Datasheets/DMG6601LVT.pdf
 $ENDCMP
 #
-$CMP RN2483A-I
-D MODULE LORA LONG RANGE
-K RN2483A-I/RM104-ND
-F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en574289
+$CMP TPS63001
+D High-EfficientSingleInductorBuck-BoostConverter
+F http://www.ti.com/lit/ds/symlink/tps63001.pdf
 $ENDCMP
 #
 #End Doc Library

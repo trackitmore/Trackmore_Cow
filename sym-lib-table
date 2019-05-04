@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Cowbell-rescue)(type Legacy)(uri ${KIPRJMOD}/Cowbell-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name Cowbell_no_gps-rescue)(type Legacy)(uri ${KIPRJMOD}/Cowbell_no_gps-rescue.lib)(options "")(descr ""))
+  (lib (name Cowbell_mini-rescue)(type Legacy)(uri ${KIPRJMOD}/Cowbell_mini-rescue.lib)(options "")(descr ""))
 )

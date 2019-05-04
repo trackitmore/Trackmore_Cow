@@ -917,4 +917,8 @@ Connection ~ 1250 3100
 Wire Wire Line
 	1250 3100 1300 3100
 NoConn ~ 1450 2600
+Text Label 2800 4550 0    50   ~ 0
+TXD0
+Text Label 2900 4750 0    50   ~ 0
+RXD0
 $EndSCHEMATC

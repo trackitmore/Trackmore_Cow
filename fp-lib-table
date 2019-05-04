@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Trackmore_Cow)(type KiCad)(uri C:/Users/andreas/Documents/kicad/Cowbell/Trackmore_Cow)(options "")(descr "")(disabled))
+  (lib (name Emborg)(type KiCad)(uri ${KIPRJMOD}/Emborg.pretty)(options "")(descr ""))
+)
